@@ -9,3 +9,7 @@ data2/
 models/
 *.zip
 !results/
+songs/*.mp3
+songs/*.wav
+songs/*.m4a
+songs/*.flac
