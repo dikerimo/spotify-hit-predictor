@@ -1,0 +1,11 @@
+.env
+.cache
+__pycache__/
+*.pkl
+*.joblib
+predictions/
+data/
+data2/
+models/
+*.zip
+!results/

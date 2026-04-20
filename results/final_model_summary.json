@@ -1,0 +1,25 @@
+{
+  "dataset": "maharshipandya/-spotify-tracks-dataset",
+  "selected_threshold": 65,
+  "selected_model": "random_forest",
+  "selected_params": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 6,
+    "min_samples_split": 6,
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample",
+    "random_state": 42
+  },
+  "selected_metrics": {
+    "roc_auc": 0.8998571752222486,
+    "hit_precision": 0.7385019710906702,
+    "hit_recall": 0.5931398416886543,
+    "hit_f1": 0.6578870354111794,
+    "accuracy": 0.9487280701754386
+  },
+  "notes": [
+    "This is the best Random Forest found in the focused second-stage tuning pass.",
+    "The project uses this model as a practical cover-selection assistant, not as a guaranteed popularity predictor."
+  ]
+}
